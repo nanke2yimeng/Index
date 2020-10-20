@@ -467,6 +467,17 @@
                 "versionCode": 0,
                 "lastUpdate": "2020-10-20 05:10:26",
                 "r18": false
+            },
+            {
+                "sid": 410,
+                "title": "凸凹吧",
+                "author": "nanke2yimeng",
+                "icon": "https://raw.githubusercontent.com/nanke2yimeng/Index/new_urls/icons/凸凹吧.png",
+                "description": "凸凹吧美女图",
+                "json": "https://raw.githubusercontent.com/nanke2yimeng/Index/new_urls/sites/凸凹吧.txt",
+                "versionCode": 1,
+                "lastUpdate": "2020-10-20 05:10:26",
+                "r18": true
             }
         ]
     },

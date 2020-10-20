@@ -1,0 +1,124 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "https://www.tuaoo.xyz{pageStr:/page_{page:1}.html}"
+        },
+        {
+            "cid": 1,
+            "title": "无圣光",
+            "url": "https://www.tuaoo.xyz/category-1_{page:1}.html"
+        },
+        {
+            "cid": 2,
+            "title": "凸凹图",
+            "url": "https://www.tuaoo.xyz/category-2_{page:1}.html"
+        },
+        {
+            "cid": 3,
+            "title": "人体艺术",
+            "url": "https://www.tuaoo.xyz/category-3_{page:1}.html"
+        },
+        {
+            "cid": 4,
+            "title": "精品套图",
+            "url": "https://www.tuaoo.xyz/category-5_{page:1}.html"
+        },
+        {
+            "cid": 5,
+            "title": "欧美女郎",
+            "url": "https://www.tuaoo.xyz/category-6_{page:1}.html"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsGrid",
+    "galleryRule": {
+        "commentRule": {
+            "author": {
+                "fun": "text",
+                "selector": "div.cmt-cont"
+            },
+            "avatar": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "content": {
+                "fun": "html",
+                "selector": "div.cmt-cont p"
+            },
+            "datetime": {
+                "fun": "html",
+                "selector": "div.cmt-meta span"
+            },
+            "item": {
+                "selector": "div.comment-list ol"
+            }
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": ".postmeta span:eq(0)"
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "div.entry img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        },
+        "tagRule": {
+            "item": {
+                "selector": "div.tags a"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*?\\d+)\\.html",
+                "replacement": "$1{pageStr:_{page:1}}.html",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}?page={page:1}",
+    "gid": 4,
+    "index": 78,
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "a img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        },
+        "item": {
+            "selector": "main.main article"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "title",
+            "selector": "a"
+        }
+    },
+    "indexUrl": "https://www.tuaoo.xyz/category-1_{page:1}.html",
+    "isGrid": true,
+    "searchUrl": "https://www.tuaoo.xyz/search.php?q={keyword:}&page={page:1}",
+    "sid": 78,
+    "title": "凸凹吧",
+    "versionCode": 1
+}

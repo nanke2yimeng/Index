@@ -77,6 +77,6 @@
     "isGrid": true,
     "searchUrl": "https://www.24cos.com/serch.aspx?key={keyword:}&page={page:1}",
     "sid": 89,
-    "title": "🙂🔎24COS",
+    "title": "24COS",
     "versionCode": 0
 }
