@@ -6,27 +6,27 @@
             "url": "https://www.tuaoo.xyz{pageStr:/page_{page:1}.html}"
         },
         {
-            "cid": 1,
+            "cid": 2,
             "title": "无圣光",
             "url": "https://www.tuaoo.xyz/category-1_{page:1}.html"
         },
         {
-            "cid": 2,
+            "cid": 3,
             "title": "凸凹图",
             "url": "https://www.tuaoo.xyz/category-2_{page:1}.html"
         },
         {
-            "cid": 3,
+            "cid": 4,
             "title": "人体艺术",
             "url": "https://www.tuaoo.xyz/category-3_{page:1}.html"
         },
         {
-            "cid": 4,
+            "cid": 5,
             "title": "精品套图",
             "url": "https://www.tuaoo.xyz/category-5_{page:1}.html"
         },
         {
-            "cid": 5,
+            "cid": 6,
             "title": "欧美女郎",
             "url": "https://www.tuaoo.xyz/category-6_{page:1}.html"
         }
