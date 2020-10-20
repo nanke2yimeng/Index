@@ -1,0 +1,135 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "http://www.ituba.cc"
+        },
+        {
+            "cid": 2,
+            "title": "性感",
+            "url": "http://www.ituba.cc/sexy/{pageStr:p{page:1}.html}"
+        },
+        {
+            "cid": 3,
+            "title": "丝袜",
+            "url": "http://www.ituba.cc/siwa/{pageStr:p{page:1}.html}"
+        },
+        {
+            "cid": 4,
+            "title": "日韩",
+            "url": "http://www.ituba.cc/rihan/{pageStr:p{page:1}.html}"
+        },
+        {
+            "cid": 5,
+            "title": "比基尼",
+            "url": "http://www.ituba.cc/xiurenmote/{pageStr:p{page:1}.html}"
+        },
+        {
+            "cid": 6,
+            "title": "动漫",
+            "url": "http://www.ituba.cc/dongm/{pageStr:p{page:1}.html}"
+        },
+        {
+            "cid": 7,
+            "title": "模特",
+            "url": "http://www.ituba.cc/model/{pageStr:p{page:1}.html}"
+        },
+        {
+            "cid": 8,
+            "title": "明星",
+            "url": "http://www.ituba.cc/stars/{pageStr:p{page:1}.html}"
+        },
+        {
+            "cid": 9,
+            "title": "写真",
+            "url": "http://www.ituba.cc/belle/{pageStr:p{page:1}.html}"
+        },
+        {
+            "cid": 10,
+            "title": "古装",
+            "url": "http://www.ituba.cc/meinvtupian/guzhuangmeinv/{pageStr:p{page:1}.html}"
+        },
+        {
+            "cid": 11,
+            "title": "清纯",
+            "url": "http://www.ituba.cc/meinvtupian/qingchunmeinv/{pageStr:p{page:1}.html}"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noRating|noTag",
+    "galleryRule": {
+        "description": {
+            "fun": "html",
+            "selector": "div.ArticleDescription p"
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "div[class=\"w100\"] img"
+            },
+            "thumbnail": {
+                "selector": "img",
+                "fun": "attr",
+                "param": "src"
+            },
+            "url": {
+                "selector": "img",
+                "fun": "attr",
+                "param": "src"
+            }
+        },
+        "tagRule": {
+            "item": {
+                "selector": "div.articleTag dd"
+            },
+            "title": {
+                "fun": "html",
+                "selector": "a"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*?\\d+)\\.html",
+                "replacement": "$1{pageStr:_{page:1}}.html",
+                "selector": "a"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:_{page:1}}.html",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "selector": "img",
+            "fun": "attr",
+            "param": "src"
+        },
+        "idCode": {
+            "selector": "a",
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*?\\d+)\\.html"
+        },
+        "item": {
+            "selector": "ul[class=\"ListTitle\"] li[class=\"Pic\"]"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "a.PicTxt"
+        },
+        "datetime": {
+            "selector": "i",
+            "fun": "text"
+        },
+        "category": {
+            "selector": "em a",
+            "fun": "text"
+        }
+    },
+    "indexUrl": "http://www.ituba.cc",
+    "isGrid": true,
+    "searchUrl": "http://www.ituba.cc/index.php?m=search&q={keyword:}&page={page:1}",
+    "sid": 71,
+    "title": "iTuba",
+    "versionCode": 1
+}
