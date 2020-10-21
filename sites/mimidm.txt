@@ -1,0 +1,90 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "http://www.mimidm.com{pageStr:/{page:1}}"
+        },
+        {
+            "cid": 2,
+            "title": "艺术",
+            "url": "http://www.mimidm.com/yishu{pageStr:/{page:1}}"
+        },
+        {
+            "cid": 3,
+            "title": "头条女神",
+            "url": "http://www.mimidm.com/toutiaogirls{pageStr:/{page:1}}"
+        },
+        {
+            "cid": 4,
+            "title": "西西艺术",
+            "url": "http://www.mimidm.com/artcc{pageStr:/{page:1}}"
+        },
+        {
+            "cid": 5,
+            "title": "爱丝",
+            "url": "http://www.mimidm.com/aiss{pageStr:/{page:1}}"
+        },
+        {
+            "cid": 6,
+            "title": "美腿",
+            "url": "http://www.mimidm.com/legbaby{pageStr:/{page:1}}"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "div[id=\"post_content\"] img"
+            },
+            "thumbnail": {
+                "selector": "img",
+                "fun": "attr",
+                "param": "src"
+            },
+            "url": {
+                "selector": "img",
+                "fun": "attr",
+                "param": "src"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:/{page:1}}",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "category": {
+            "selector": "span.info_category",
+            "fun": "text"
+        },
+        "cover": {
+            "selector": "img",
+            "fun": "attr",
+            "param": "src"
+        },
+        "datetime": {
+            "selector": "span.info_date",
+            "fun": "text"
+        },
+        "idCode": {
+            "selector": "a",
+            "fun": "attr",
+            "param": "href"
+        },
+        "item": {
+            "selector": "ul[id=\"post_container\"] li"
+        },
+        "title": {
+            "selector": "img",
+            "fun": "attr",
+            "param": "alt"
+        }
+    },
+    "indexUrl": "http://www.mimidm.com",
+    "isGrid": true,
+    "searchUrl": "http://www.mimidm.com/page/{page:1}?s={keyword:}",
+    "sid": 233,
+    "title": "mimidm",
+    "versionCode": 0
+}

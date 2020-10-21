@@ -1,0 +1,108 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "http://www.mm131.vip"
+        },
+        {
+            "cid": 2,
+            "title": "性感",
+            "url": "http://www.mm131.vip/xinggan/{pageStr:list_1_{page:1}.html}"
+        },
+        {
+            "cid": 3,
+            "title": "清纯",
+            "url": "http://www.mm131.vip/qingchun/{pageStr:list_2_{page:1}.html}"
+        },
+        {
+            "cid": 4,
+            "title": "校花",
+            "url": "http://www.mm131.vip/xiaohua/{pageStr:list_3_{page:1}.html}"
+        },
+        {
+            "cid": 5,
+            "title": "车模",
+            "url": "http://www.mm131.vip/chemo/{pageStr:list_4_{page:1}.html}"
+        },
+        {
+            "cid": 6,
+            "title": "旗袍",
+            "url": "http://www.mm131.vip/qipao/{pageStr:list_5_{page:1}.html}"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noRating|noTag",
+    "galleryRule": {
+        "category": {
+            "selector": "span.post-meta a",
+            "fun":"text"
+        },
+        "datetime": {
+            "selector": "div.content div.content-msg",
+            "fun": "text",
+            "regex": "(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2})"
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "div[class=\"content-pic\"] img"
+            },
+            "thumbnail": {
+                "selector": "img",
+                "fun": "attr",
+                "param": "src"
+            },
+            "url": {
+                "selector": "img",
+                "fun": "attr",
+                "param": "src"
+            }
+        },
+        "tagRule": {
+            "item": {
+                "selector": "span.post-tag a"
+            },
+            "title": {
+                "fun": "text",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex":"(.*?\\d+)\\.html",
+                "replacement": "$1{pageStr:-{page:1}}.html",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}{pageStr:_{page:1}}.html",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "selector": "img",
+            "fun": "attr",
+            "param": "data-original"
+        },
+        "idCode": {
+            "selector": "a",
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*?\\d+)\\.html"
+        },
+        "item": {
+            "selector": "div[class=\"main\"] dd"
+        },
+        "title": {
+            "selector": "img",
+            "fun": "attr",
+            "param": "alt"
+        }
+    },
+    "indexUrl": "http://www.mm131.vip",
+    "isGrid": true,
+    "searchUrl": "http://www.mm131.vip/index.php?m=search&q={keyword:}&page={page:1}",
+    "sid": 95,
+    "title": "🙂🔎MM131VIP",
+    "versionCode": 0
+}
