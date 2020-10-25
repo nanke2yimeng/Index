@@ -1,0 +1,139 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "http://www.luav68.com/"
+        },
+        {
+            "cid": 2,
+            "title": "唯美清纯",
+            "url": "http://www.luav68.com/index.php/art/type/id/39/page/{page:1}.html"
+        },
+        {
+            "cid": 3,
+            "title": "网友自拍",
+            "url": "http://www.luav68.com/index.php/art/type/id/40/page/{page:1}.html"
+        },
+        {
+            "cid": 4,
+            "title": "亚洲性爱",
+            "url": "http://www.luav68.com/index.php/art/type/id/41/page/{page:1}.html"
+        },
+        {
+            "cid": 5,
+            "title": "欧美激情",
+            "url": "http://www.luav68.com/index.php/art/type/id/42/page/{page:1}.html"
+        },
+        {
+            "cid": 6,
+            "title": "露出偷窥",
+            "url": "http://www.luav68.com/index.php/art/type/id/43/page/{page:1}.html"
+        },
+        {
+            "cid": 7,
+            "title": "高跟丝袜",
+            "url": "http://www.luav68.com/index.php/art/type/id/44/page/{page:1}.html"
+        },
+        {
+            "cid": 8,
+            "title": "卡通漫画",
+            "url": "http://www.luav68.com/index.php/art/type/id/45/page/{page:1}.html"
+        },
+        {
+            "cid": 9,
+            "title": "精品动图",
+            "url": "http://www.luav68.com/index.php/art/type/id/46/page/{page:1}.html"
+        },
+        {
+            "cid": 10,
+            "title": "暴力虐待",
+            "url": "http://www.luav68.com/index.php/art/type/id/31/page/{page:1}.html"
+        },
+        {
+            "cid": 11,
+            "title": "学生校园",
+            "url": "http://www.luav68.com/index.php/art/type/id/32/page/{page:1}.html"
+        },
+        {
+            "cid": 12,
+            "title": "玄幻仙侠",
+            "url": "http://www.luav68.com/index.php/art/type/id/33/page/{page:1}.html"
+        },
+        {
+            "cid": 13,
+            "title": "明星偶像",
+            "url": "http://www.luav68.com/index.php/art/type/id/34/page/{page:1}.html"
+        },
+        {
+            "cid": 14,
+            "title": "生活都市",
+            "url": "http://www.luav68.com/index.php/art/type/id/35/page/{page:1}.html"
+        },
+        {
+            "cid": 15,
+            "title": "不伦恋情",
+            "url": "http://www.luav68.com/index.php/art/type/id/36/page/{page:1}.html"
+        },
+        {
+            "cid": 16,
+            "title": "经验故事",
+            "url": "http://www.luav68.com/index.php/art/type/id/37/page/{page:1}.html"
+        },
+        {
+            "cid": 17,
+            "title": "科学幻想",
+            "url": "http://www.luav68.com/index.php/art/type/id/38/page/{page:1}.html"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noCover|noRating|noTag",
+    "galleryRule": {
+        "description": {
+            "selector":"div.ttnr",
+            "fun": "html"
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "div.nrtitle p img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "http://www.luav68.com{idCode:}",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "datetime": {
+            "fun": "text",
+            "selector": "span.sep"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        },
+        "item": {
+            "selector": "div.tab-appel li"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "a"
+        }
+    },
+    "indexUrl": "http://www.luav68.com",
+    "isGrid": true,
+    "searchUrl": "",
+    "sid": 20,
+    "title": "luav68",
+    "versionCode": 0
+}

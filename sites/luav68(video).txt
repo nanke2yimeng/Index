@@ -1,0 +1,97 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "http://www.luav68.com/"
+        },
+        {
+            "cid": 2,
+            "title": "中文字幕",
+            "url": "http://www.luav68.com/index.php/vod/type/id/28/page/{page:1}.html"
+        },
+        {
+            "cid": 3,
+            "title": "自拍精品",
+            "url": "http://www.luav68.com/index.php/vod/type/id/20/page/{page:1}.html"
+        },
+        {
+            "cid": 4,
+            "title": "欧美精品",
+            "url": "http://www.luav68.com/index.php/vod/type/id/21/page/{page:1}.html"
+        },
+        {
+            "cid": 5,
+            "title": "亚洲视频",
+            "url": "http://www.luav68.com/index.php/vod/type/id/22/page/{page:1}.html"
+        },
+        {
+            "cid": 6,
+            "title": "动漫精品",
+            "url": "http://www.luav68.com/index.php/vod/type/id/23/page/{page:1}.html"
+        },
+        {
+            "cid": 7,
+            "title": "无码视频",
+            "url": "http://www.luav68.com/index.php/vod/type/id/24/page/{page:1}.html"
+        },
+        {
+            "cid": 8,
+            "title": "有码视频",
+            "url": "http://www.luav68.com/index.php/vod/type/id/25/page/{page:1}.html"
+        },
+        {
+            "cid": 9,
+            "title": "伦理电影",
+            "url": "http://www.luav68.com/index.php/vod/type/id/26/page/{page:1}.html"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsGrid",
+    "galleryRule": {
+        "videoRule": {
+            "item": {
+                "selector": "div.m1938 script:first-child"
+            },
+            "content": {
+                "fun": "html",
+                "selector": "this",
+                "regex": "(https.*?)\""
+            }
+        }
+    },
+    "galleryUrl": "http://www.luav68.com/index.php/vod/play/id/{idCode:}/sid/1/nid/1.html",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "selector": "img",
+            "fun": "attr",
+            "param": "src"
+        },
+        "datetime": {
+            "fun": "text",
+            "regex": "(\\d{4}-\\d{2}-\\d{2})",
+            "selector": "div.video-info p"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a",
+            "regex": "id/(\\d+).html"
+        },
+        "item": {
+            "selector": "div.appel-main li"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "div.video-info a"
+        }
+    },
+    "indexUrl": "http://www.luav68.com",
+    "isGrid": true,
+    "searchUrl": "",
+    "sid": 20,
+    "title": "luav68(video)",
+    "versionCode": 0
+}

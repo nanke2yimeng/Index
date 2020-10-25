@@ -522,6 +522,17 @@
                 "versionCode": 0,
                 "lastUpdate": "2020-10-20 05:10:26",
                 "r18": false
+            },
+            {
+                "sid": 415,
+                "title": "樱花AV(Pic)",
+                "author": "nanke2yimeng",
+                "icon": "https://raw.githubusercontent.com/nanke2yimeng/Index/new_urls/icons/luav68.png",
+                "description": "luav68免費在線成人影片, 情色電影。",
+                "json": "https://raw.githubusercontent.com/nanke2yimeng/Index/new_urls/sites/luav68.txt",
+                "versionCode": 1,
+                "lastUpdate": "2020-10-25 07:18:28",
+                "r18": true
             }
         ]
     },
@@ -809,6 +820,17 @@
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/Index/master/sites/youav.txt",
                 "versionCode": 2,
                 "lastUpdate": "2018-03-17 07:18:28",
+                "r18": true
+            },
+            {
+                "sid": 609,
+                "title": "樱花AV",
+                "author": "nanke2yimeng",
+                "icon": "https://raw.githubusercontent.com/nanke2yimeng/Index/new_urls/icons/luav68.png",
+                "description": "luav68免費在線成人影片, 情色電影。",
+                "json": "https://raw.githubusercontent.com/nanke2yimeng/Index/new_urls/sites/luav68(video).txt",
+                "versionCode": 0,
+                "lastUpdate": "2020-10-25 07:18:28",
                 "r18": true
             }
         ]
