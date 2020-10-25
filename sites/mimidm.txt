@@ -3,32 +3,32 @@
         {
             "cid": 1,
             "title": "首页",
-            "url": "http://www.mimidm.com{pageStr:/{page:1}}"
+            "url": "http://www.mimidm.com{pageStr:/page/{page:1}}"
         },
         {
             "cid": 2,
             "title": "艺术",
-            "url": "http://www.mimidm.com/yishu{pageStr:/{page:1}}"
+            "url": "http://www.mimidm.com/yishu{pageStr:/page/{page:1}}"
         },
         {
             "cid": 3,
             "title": "头条女神",
-            "url": "http://www.mimidm.com/toutiaogirls{pageStr:/{page:1}}"
+            "url": "http://www.mimidm.com/toutiaogirls{pageStr:/page/{page:1}}"
         },
         {
             "cid": 4,
             "title": "西西艺术",
-            "url": "http://www.mimidm.com/artcc{pageStr:/{page:1}}"
+            "url": "http://www.mimidm.com/artcc{pageStr:/page/{page:1}}"
         },
         {
             "cid": 5,
             "title": "爱丝",
-            "url": "http://www.mimidm.com/aiss{pageStr:/{page:1}}"
+            "url": "http://www.mimidm.com/aiss{pageStr:/page/{page:1}}"
         },
         {
             "cid": 6,
             "title": "美腿",
-            "url": "http://www.mimidm.com/legbaby{pageStr:/{page:1}}"
+            "url": "http://www.mimidm.com/legbaby{pageStr:/page/{page:1}}"
         }
     ],
     "disableHProxy": false,
