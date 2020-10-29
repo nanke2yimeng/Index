@@ -1,0 +1,91 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "首页",
+            "url": "https://www.xc0131.com/home.html"
+        },
+        {
+            "cid": 2,
+            "title": "开放90后",
+            "url": "https://www.xc0131.com/photo/photo_list.html?photo_type=21&page_index={page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "丝袜诱惑",
+            "url": "https://www.xc0131.com/photo/photo_list.html?photo_type=22&page_index={page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "美颜巨乳",
+            "url": "https://www.xc0131.com/photo/photo_list.html?photo_type=23&page_index={page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "邻家女孩",
+            "url": "https://www.xc0131.com/photo/photo_list.html?photo_type=24&page_index={page:1}"
+        },
+        {
+            "cid": 6,
+            "title": "长腿美女热",
+            "url": "https://www.xc0131.com/photo/photo_list.html?photo_type=25&page_index={page:1}"
+        },
+        {
+            "cid": 7,
+            "title": "熟女人妻",
+            "url": "https://www.xc0131.com/photo/photo_list.html?photo_type=26&page_index={page:1}"
+        }
+    ],
+    "disableHProxy": false,
+    "flag": "noRating|noTag|waterfallAsGrid",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "div[class=\"post_content\"] img"
+            },
+            "thumbnail": {
+                "selector": "img",
+                "fun": "attr",
+                "param": "src"
+            },
+            "url": {
+                "selector": "img",
+                "fun": "attr",
+                "param": "src"
+            }
+        }
+    },
+    "galleryUrl": "https://www.xc0131.com{idCode:}",
+    "gid": 0,
+    "index": 0,
+    "indexRule": {
+        "cover": {
+            "selector": "img",
+            "fun": "attr",
+            "param": "src"
+        },
+        "datetime": {
+            "selector": "span.movie_date",
+            "fun": "text"
+        },
+        "idCode": {
+            "selector": "a",
+            "fun": "attr",
+            "param": "href"
+        },
+        "item": {
+            "selector": "div[class=\"box movie_list\"] li"
+        },
+        "title": {
+            "selector": "img",
+            "fun": "attr",
+            "param": "title"
+        }
+    },
+    "indexUrl": "https://www.xc0131.com",
+    "isGrid": true,
+    "searchUrl": "",
+    "sid": 266,
+    "title": "香肠视频",
+    "versionCode": 0
+}
